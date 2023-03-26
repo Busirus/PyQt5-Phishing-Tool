@@ -6,21 +6,13 @@
   <img src="https://image.noelshack.com/fichiers/2023/12/5/1679643573-gui.png">
 </div>
 
-# DISCLAIMER
-
-This tool is for educational purposes only. Do not use it for any illegal activities. The author is not responsible for any misuse of this tool.
-
 # Introduction 
 
 Phishing Tool is a powerful and user-friendly utility designed to create fake websites and capture victim's credentials and IP information for educational purposes. The tool features a GUI built with PyQt5, customizable templates, and support for Ngrok or Localhost tunneling to generate WAN or LAN URLs.
 
-# Features
+# DISCLAIMER
 
-- Customizable phishing templates
-- Easy-to-use graphical interface
-- Supports Ngrok and Localhost tunneling options
-- Captures victim's credentials and IP information
-- Designed for educational and testing purposes
+This tool is for educational purposes only. Do not use it for any illegal activities. The author is not responsible for any misuse of this tool.
 
 # Installation
 
@@ -38,6 +30,14 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ```
+# Features
+
+- Customizable phishing templates
+- Easy-to-use graphical interface
+- Supports Ngrok and Localhost tunneling options
+- Captures victim's credentials and IP information
+- Designed for educational and testing purposes
+
 # Usage
 
 1. Select a site from the available templates.
